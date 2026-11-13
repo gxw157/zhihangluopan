@@ -1,0 +1,14 @@
+# 可选增强依赖（按需安装，不装不影响主流程）
+#   pip install -r requirements-optional.txt
+
+# —— 学生语音作答（⑥⑦ 面试语音输入；不装自动退回键盘输入）——
+# 注意：torch 体积大，云端小容器建议不装，用键盘作答即可
+funasr>=1.4
+torch>=2.2
+torchaudio>=2.2
+
+# —— Windows 本机离线语音（路演断网兜底；仅 Windows 有效）——
+pywin32>=306
+
+# —— ⑧ 采集入 MySQL 主库（本机增强功能；云端不装，学生端五屏不受影响）——
+pymysql>=1.1

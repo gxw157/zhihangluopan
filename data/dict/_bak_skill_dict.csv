@@ -1,0 +1,114 @@
+﻿skill_id,canonical,l1,l2,aliases,popularity,premium,trend,families,node_level
+SK001,Python,编程基础,语言,python|py,0.92,0.1,0.05,"ALG,DATA_DEV,DATA_AN,LLM,OPS,TEST",3
+SK002,Java,编程基础,语言,java|J2EE,0.34,0.06,-0.02,"DATA_DEV,OPS,PROD",3
+SK003,C++,编程基础,语言,c++|cpp|C＋＋,0.22,0.08,0.0,"ALG,OPS",3
+SK004,Go,编程基础,语言,golang|go语言,0.09,0.09,0.02,"DATA_DEV,OPS",3
+SK005,Shell脚本,编程基础,语言,shell|bash|linux脚本,0.28,0.03,0.0,"DATA_DEV,OPS,ALG",3
+SK006,Git,编程基础,工程素养,git|版本控制|github|gitlab,0.36,0.02,0.01,"ALG,DATA_DEV,LLM,OPS",3
+SK007,Linux,编程基础,系统,linux|centos|ubuntu|国产操作系统,0.41,0.04,0.01,"DATA_DEV,OPS,ALG,LLM",3
+SK008,数据结构与算法,编程基础,基础理论,数据结构|算法基础|算法与数据结构,0.26,0.07,0.01,"ALG,DATA_DEV",3
+SK009,面向对象设计,编程基础,工程素养,面向对象|OOP|设计模式,0.14,0.03,0.0,"DATA_DEV,PROD",3
+SK010,代码规范,编程基础,工程素养,编码规范|代码评审|code review,0.11,0.01,0.0,"ALG,DATA_DEV",3
+SK011,SQL,数据处理,数据库,sql|结构化查询语言,0.74,0.09,0.03,"DATA_DEV,DATA_AN,ALG,PROD,TEST",3
+SK012,MySQL,数据处理,数据库,mysql|sql server|mssql,0.45,0.03,0.0,"DATA_DEV,DATA_AN,OPS",3
+SK013,PostgreSQL,数据处理,数据库,postgresql|postgres|pg数据库,0.12,0.05,0.03,"DATA_DEV,DATA_AN",3
+SK014,Hive,数据处理,大数据,hive|hivesql,0.26,0.05,-0.06,"DATA_DEV,DATA_AN",3
+SK015,Spark,数据处理,大数据,spark|pyspark|sparksql,0.28,0.09,-0.02,"DATA_DEV,ALG",3
+SK016,Flink,数据处理,大数据,flink|实时计算,0.14,0.12,0.02,DATA_DEV,3
+SK017,Kafka,数据处理,大数据,kafka|消息队列,0.16,0.07,0.01,"DATA_DEV,OPS",3
+SK018,ETL,数据处理,数据工程,etl|数据抽取|数据同步|数据集成,0.22,0.04,0.0,"DATA_DEV,DATA_AN",3
+SK019,数据仓库,数据处理,数据工程,数据仓库|数仓|维度建模|data warehouse,0.24,0.08,0.01,"DATA_DEV,DATA_AN",3
+SK020,数据清洗,数据处理,数据工程,数据清洗|数据治理|数据质量,0.3,0.04,0.03,"DATA_AN,DATA_DEV,TEST",3
+SK021,pandas,数据处理,分析工具,pandas|pd,0.38,0.05,0.02,"DATA_AN,ALG,LLM,TEST",3
+SK022,NumPy,数据处理,分析工具,numpy|np,0.29,0.03,0.01,"DATA_AN,ALG",3
+SK023,Excel,数据处理,办公工具,excel|电子表格|vlookup|数据透视表,0.25,-0.03,-0.03,"DATA_AN,PROD,OPS",3
+SK024,数据可视化,数据处理,可视化,数据可视化|可视化报表|看板开发|大屏,0.31,0.05,0.03,"DATA_AN,PROD",3
+SK025,Tableau,数据处理,可视化,tableau,0.08,0.03,-0.02,DATA_AN,3
+SK026,Power BI,数据处理,可视化,powerbi|power bi|帆软|finebi,0.11,0.03,0.01,"DATA_AN,PROD",3
+SK027,ECharts,数据处理,可视化,echarts|antv|d3.js,0.09,0.03,0.01,"DATA_AN,PROD",3
+SK028,数据建模,数据处理,数据工程,数据建模|指标体系|指标口径,0.18,0.06,0.02,"DATA_AN,DATA_DEV",3
+SK029,机器学习,机器学习,基础理论,机器学习|ml|传统机器学习,0.46,0.08,0.0,"ALG,DATA_AN,LLM",3
+SK030,scikit-learn,机器学习,工具,sklearn|scikit-learn|scikit learn,0.27,0.05,0.0,"ALG,DATA_AN",3
+SK031,特征工程,机器学习,方法,特征工程|特征提取|特征选择,0.3,0.07,0.0,"ALG,DATA_AN",3
+SK032,模型评估,机器学习,方法,模型评估|交叉验证|模型调优|超参数搜索,0.24,0.05,0.01,"ALG,DATA_AN",3
+SK033,XGBoost,机器学习,工具,xgboost|xgb|lightgbm|lgbm|catboost|gbdt,0.21,0.07,0.01,"ALG,DATA_AN",3
+SK034,逻辑回归,机器学习,算法,逻辑回归|lr模型,0.1,0.02,-0.02,"DATA_AN,ALG",3
+SK035,随机森林,机器学习,算法,随机森林|random forest,0.09,0.02,-0.01,"ALG,DATA_AN",3
+SK036,推荐系统,机器学习,应用算法,推荐系统|推荐算法|召回排序|协同过滤,0.19,0.12,0.02,"ALG,LLM",3
+SK037,时间序列,机器学习,算法,时间序列|时序预测|arima|prophet,0.13,0.07,0.02,"ALG,DATA_AN",3
+SK038,A/B测试,机器学习,方法,ab测试|a/b测试|实验设计|因果推断,0.12,0.06,0.03,"DATA_AN,PROD",3
+SK039,统计分析,机器学习,基础理论,统计分析|假设检验|描述统计,0.17,0.03,0.0,DATA_AN,3
+SK040,PyTorch,深度学习,框架,pytorch|torch|paddlepaddle|飞桨|mindspore,0.44,0.13,0.06,"ALG,LLM",3
+SK041,TensorFlow,深度学习,框架,tensorflow|tf|keras,0.18,0.05,-0.07,ALG,3
+SK042,CNN,深度学习,网络结构,cnn|卷积神经网络|resnet|yolo,0.22,0.07,-0.01,ALG,3
+SK043,RNN/LSTM,深度学习,网络结构,lstm|rnn|gru|循环神经网络,0.11,0.02,-0.05,ALG,3
+SK044,Transformer,深度学习,网络结构,transformer|注意力机制|attention|bert,0.31,0.12,0.07,"ALG,LLM",3
+SK045,目标检测,深度学习,应用算法,目标检测|缺陷检测|yolov8|faster rcnn,0.16,0.1,0.03,ALG,3
+SK046,图像分割,深度学习,应用算法,图像分割|语义分割|实例分割|unet,0.08,0.08,0.02,ALG,3
+SK047,OCR,深度学习,应用算法,ocr|文字识别|票据识别,0.1,0.06,0.01,ALG,3
+SK048,语音识别,深度学习,应用算法,语音识别|asr|语音合成|tts,0.07,0.07,0.01,ALG,3
+SK049,迁移学习,深度学习,方法,迁移学习|预训练模型|finetune,0.14,0.05,0.02,"ALG,LLM",3
+SK050,模型压缩,深度学习,工程,模型压缩|剪枝|蒸馏|量化部署,0.09,0.11,0.05,"ALG,OPS",3
+SK051,大语言模型应用,大模型应用,基础能力,大模型|大语言模型|llm|aigc|生成式ai|生成式人工智能|chatgpt|大模型算法|大模型开发|大模型应用,0.58,0.2,0.22,"LLM,ALG,PROD",3
+SK052,Prompt工程,大模型应用,方法,prompt|提示词|提示工程|prompt engineering|提示词工程,0.42,0.14,0.18,"LLM,PROD,TEST",3
+SK053,RAG,大模型应用,应用架构,rag|检索增强|检索增强生成|知识库问答,0.36,0.22,0.26,"LLM,ALG",3
+SK054,Agent,大模型应用,应用架构,agent|智能体|ai agent|多智能体|workflow编排,0.33,0.24,0.28,"LLM,ALG",3
+SK055,LangChain,大模型应用,框架,langchain|langgraph|llamaindex|dify|coze,0.24,0.12,0.15,LLM,3
+SK056,向量数据库,大模型应用,基础设施,向量数据库|向量库|milvus|faiss|chroma|pinecone|weaviate|pgvector,0.26,0.16,0.19,"LLM,DATA_DEV",3
+SK057,LoRA微调,大模型应用,训练,lora|微调|sft|指令微调|peft|qlora,0.27,0.19,0.16,"LLM,ALG",3
+SK058,模型量化,大模型应用,训练,量化|int8|int4|gguf|awq,0.12,0.1,0.09,"LLM,OPS",3
+SK059,多模态,大模型应用,应用架构,多模态|图文理解|视觉语言模型|vlm|文生图,0.18,0.16,0.12,"LLM,ALG",3
+SK060,Function Call,大模型应用,应用架构,function call|工具调用|tool calling,0.15,0.13,0.17,LLM,3
+SK061,大模型评测,大模型应用,评测,模型评测|效果评估|badcase分析|评测集,0.16,0.09,0.1,"LLM,TEST",3
+SK062,Ollama,大模型应用,部署工具,ollama|lmstudio|本地大模型部署,0.09,0.06,0.09,"LLM,OPS",3
+SK063,vLLM,大模型应用,部署工具,vllm|sglang|tensorrt-llm|推理加速,0.1,0.11,0.08,"LLM,OPS",3
+SK064,知识图谱,大模型应用,知识工程,知识图谱|neo4j|实体关系抽取|本体建模,0.14,0.1,0.02,"ALG,LLM",3
+SK065,数据标注,大模型应用,数据工程,数据标注|标注规范|语料构建|数据质检|图像标注|视频标注|语音标注|文本标注|音频标注|图文标注|标注,0.25,0.03,0.08,"TEST,LLM,DATA_AN",3
+SK066,Docker,工程部署,容器,docker|容器化|镜像构建,0.33,0.08,0.04,"OPS,DATA_DEV,LLM,ALG",3
+SK067,Kubernetes,工程部署,容器,kubernetes|k8s|容器编排,0.15,0.11,0.03,"OPS,DATA_DEV",3
+SK068,FastAPI,工程部署,服务框架,fastapi|flask|django|接口开发|后端开发|服务端开发,0.28,0.07,0.06,"LLM,DATA_DEV,OPS",3
+SK069,ONNX,工程部署,推理,onnx|onnxruntime|模型转换,0.1,0.07,0.03,"ALG,OPS",3
+SK070,TensorRT,工程部署,推理,tensorrt|triton|推理优化,0.08,0.09,0.02,"ALG,OPS",3
+SK071,模型服务化,工程部署,服务化,模型部署|模型服务|服务化|api封装,0.22,0.09,0.05,"ALG,OPS,LLM",3
+SK072,CI/CD,工程部署,工程效能,ci/cd|jenkins|gitlab ci|自动化发布,0.11,0.04,0.01,"OPS,DATA_DEV",3
+SK073,云平台,工程部署,基础设施,阿里云|华为云|腾讯云|aws|azure|私有云,0.24,0.05,0.03,"OPS,DATA_DEV,LLM",3
+SK074,边缘部署,工程部署,部署形态,边缘计算|边缘设备|端侧部署|jetson|昇腾,0.1,0.08,0.04,"OPS,ALG",3
+SK075,MLOps,工程部署,工程效能,mlops|模型管理|实验管理|mlflow,0.09,0.08,0.04,"OPS,ALG",3
+SK076,监控告警,工程部署,运维,监控告警|prometheus|grafana|日志分析|zabbix,0.14,0.03,0.0,OPS,3
+SK077,Nginx,工程部署,运维,nginx|负载均衡|反向代理,0.12,0.02,-0.01,OPS,3
+SK078,系统运维,工程部署,运维,系统运维|服务器运维|故障排查|巡检,0.19,0.01,-0.02,OPS,3
+SK079,网络基础,工程部署,运维,tcp/ip|网络协议|交换机配置,0.11,0.01,-0.01,OPS,3
+SK080,计算机视觉,行业应用,技术方向,计算机视觉|cv|视觉算法|图像处理|opencv|图像识别|目标识别|人脸识别,0.27,0.12,0.02,ALG,3
+SK081,自然语言处理,行业应用,技术方向,自然语言处理|nlp|文本挖掘|文本分类|信息抽取,0.3,0.11,0.04,"ALG,LLM",3
+SK082,智能制造,行业应用,行业,智能制造|工业互联网|工业质检|产线数字化|mes,0.21,0.06,0.07,"ALG,OPS,PROD",3
+SK083,智慧农业,行业应用,行业,智慧农业|农业大数据|植保识别|农业物联网,0.08,0.04,0.05,"ALG,PROD",3
+SK084,医疗影像,行业应用,行业,医疗影像|医学影像|辅助诊断|his系统,0.05,0.05,0.02,ALG,3
+SK085,金融风控,行业应用,行业,金融风控|风控模型|反欺诈|信用评分,0.07,0.09,0.01,"ALG,DATA_AN",3
+SK086,数字孪生,行业应用,行业,数字孪生|三维重建|仿真建模,0.06,0.06,0.03,"ALG,PROD",3
+SK087,机器人ROS,行业应用,行业,ros|机器人操作系统|slam|运动控制,0.05,0.06,0.02,"ALG,OPS",3
+SK088,需求分析,产品与通用,产品能力,需求分析|需求调研|业务流程梳理,0.24,0.03,0.0,"PROD,DATA_AN",3
+SK089,解决方案设计,产品与通用,产品能力,解决方案|方案设计|售前|技术方案编写,0.22,0.04,0.02,"PROD,OPS",3
+SK090,项目管理,产品与通用,管理能力,项目管理|进度管理|敏捷|scrum,0.17,0.02,0.0,"PROD,OPS",3
+SK091,技术文档写作,产品与通用,文档能力,技术文档|文档编写|标书|方案文档,0.19,0.01,0.01,"OPS,PROD,TEST",3
+SK092,客户沟通,产品与通用,软技能,客户沟通|客户培训|用户培训|现场支持,0.21,0.0,0.0,"OPS,PROD",3
+SK093,软件测试,产品与通用,测试,软件测试|功能测试|接口测试|自动化测试,0.16,0.02,0.0,"TEST,OPS",3
+SK094,bug管理,产品与通用,测试,bug管理|缺陷跟踪|jira|禅道,0.09,0.0,-0.01,TEST,3
+SK095,数据分析,数据处理,分析,数据分析|业务分析|数据洞察|经营分析,0,0,0,ALL,3
+SK096,数据挖掘,数据处理,挖掘,数据挖掘|用户画像|标签体系,0,0,0,ALL,3
+SK097,深度学习,深度学习,框架,深度学习|神经网络|dl,0,0,0,ALL,3
+SK098,Redis,数据处理,缓存,redis|缓存,0,0,0,ALL,3
+SK099,Oracle,数据处理,数据库,oracle,0,0,0,ALL,3
+SK100,MongoDB,数据处理,数据库,mongodb|mongo,0,0,0,ALL,3
+SK101,Elasticsearch,数据处理,检索,elasticsearch|es|全文检索,0,0,0,ALL,3
+SK102,JavaScript,编程基础,前端,javascript|js|typescript|ts,0,0,0,ALL,3
+SK103,Vue,编程基础,前端,vue|vue2|vue3|element ui|前端开发|web前端,0,0,0,ALL,3
+SK104,React,编程基础,前端,react|react native|antd,0,0,0,ALL,3
+SK105,HTML/CSS,编程基础,前端,html|css|html5|css3|页面重构,0,0,0,ALL,3
+SK106,Spring Boot,编程基础,后端,spring boot|springboot|spring cloud|spring,0,0,0,ALL,3
+SK107,BI工具,数据处理,报表,bi|商业智能|superset|metabase,0,0,0,ALL,3
+SK108,RPA,行业应用,自动化,rpa|流程自动化|uipath|影刀,0,0,0,ALL,3
+SK109,C语言,编程基础,语言,c语言|ansi c|嵌入式c,0,0,0,ALL,3
+SK110,SQL Server,数据处理,数据库,sql server|mssql|t-sql,0,0,0,ALL,3
+SK111,数据分析工具,数据处理,分析,spss|sas|matlab|stata,0,0,0,ALL,3
+SK112,小程序开发,编程基础,前端,小程序|微信小程序|uni-app|uniapp,0,0,0,ALL,3
+SK113,低代码平台,工程部署,平台,低代码|低代码开发|宜搭|氚云,0,0,0,ALL,3

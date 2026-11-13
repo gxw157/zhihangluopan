@@ -1,0 +1,11 @@
+# 全局主题：浅色 · 低饱和淡蓝（原生组件——复选框/滑杆/多选高亮——跟随 primaryColor）
+[theme]
+base = "light"
+primaryColor = "#6c9bd1"
+backgroundColor = "#f8fbff"
+secondaryBackgroundColor = "#ffffff"
+textColor = "#2b3a4d"
+font = "sans serif"
+
+[server]
+maxUploadSize = 200

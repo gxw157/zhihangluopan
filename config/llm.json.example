@@ -1,0 +1,6 @@
+{
+  "_说明": "复制本文件为 llm.json 并填好三项即可启用「大模型技能抽取对照」节点。任何 OpenAI 兼容服务均可：DeepSeek、通义、本地 Ollama(/v1) 等。不启用则该节点自动跳过，规则通道兜底。",
+  "base_url": "https://api.deepseek.com/v1",
+  "api_key": "把你的 key 填在这里",
+  "model": "deepseek-chat"
+}

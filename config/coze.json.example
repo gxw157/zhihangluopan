@@ -1,0 +1,10 @@
+{
+  "_说明": "复制本文件为 config/coze.json（去掉 .example）并填好下面三项，刷新页面即接入 Coze。",
+  "_获取方式": "① coze.cn 建 Bot → 发布 → 拿 bot_id；② 个人访问令牌生成 token；③ （可选）搭「职业规划书」工作流拿 workflow_id，输入参数名 student_profile。",
+  "_降级": "没配置时自动降级：Coze → OpenAI 兼容接口(config/llm.json) → 离线规则引擎，页面功能不受影响。",
+  "token": "在这里粘贴你的 Coze 个人访问令牌（pat_ 开头）",
+  "bot_id": "在这里粘贴 Bot ID（纯数字）",
+  "user_id": "student-0001",
+  "workflow_id": "",
+  "api_base": "https://api.coze.cn"
+}

@@ -1,0 +1,116 @@
+{
+  "version": 4,
+  "name": "我的技能成长诊断",
+  "major": "大数据技术",
+  "city": "全省",
+  "nodes": [
+    {
+      "id": "n1",
+      "type": "tool",
+      "title": "取市场岗位需求",
+      "tool": "skill_demand",
+      "args": {
+        "top_k": 10
+      },
+      "deps": [],
+      "enabled": true
+    },
+    {
+      "id": "n2",
+      "type": "gate",
+      "title": "样本量校验",
+      "tool": "sample_gate",
+      "args": {
+        "min_jd": 200
+      },
+      "deps": [
+        "n1"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "n3",
+      "type": "tool",
+      "title": "算技能值多少钱",
+      "tool": "salary_premium",
+      "args": {
+        "top_n": 8,
+        "count_floor": 25
+      },
+      "deps": [
+        "n2"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "n4",
+      "type": "tool",
+      "title": "查本专业课程覆盖",
+      "tool": "curriculum_coverage",
+      "args": {},
+      "deps": [],
+      "enabled": true
+    },
+    {
+      "id": "n5",
+      "type": "tool",
+      "title": "算我的命中率",
+      "tool": "my_match",
+      "args": {},
+      "deps": [
+        "n1"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "n6",
+      "type": "tool",
+      "title": "列我的待补技能",
+      "tool": "my_gap",
+      "args": {
+        "limit": 10
+      },
+      "deps": [
+        "n4",
+        "n5"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "n7",
+      "type": "tool",
+      "title": "排十二周补课顺序",
+      "tool": "learn_order",
+      "args": {
+        "weeks": 12,
+        "per_week": 1
+      },
+      "deps": [
+        "n6"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "n8",
+      "type": "tool",
+      "title": "新说法语义归并",
+      "tool": "semantic_merge",
+      "args": {},
+      "deps": [],
+      "enabled": true
+    },
+    {
+      "id": "n9",
+      "type": "compose",
+      "title": "生成成长方案",
+      "tool": "compose_report",
+      "args": {},
+      "deps": [
+        "n3",
+        "n7",
+        "n8"
+      ],
+      "enabled": true
+    }
+  ]
+}

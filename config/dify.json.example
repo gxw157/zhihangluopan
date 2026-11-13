@@ -1,0 +1,11 @@
+{
+  "_说明": "复制本文件为 config/dify.json（去掉 .example）并填好 base_url / api_key，刷新 ⑥ 屏即切到校内私有化 Dify。",
+  "_获取方式": "① 本地 docker compose 部署 Dify（见手册第 6 章）；② 建 Chatflow 应用 → 发布 → API 访问 → 拿 app- 开头的密钥；③ 若要一键规划书，再建一个工作流应用，开始节点加字符串变量 student_profile，结束节点输出 text。",
+  "_降级": "未配置或调用失败时自动回落到：Coze 在线 → OpenAI 兼容接口(config/llm.json) → 离线规则引擎；页面标签如实显示本次用了哪条通道。",
+  "base_url": "http://localhost/v1",
+  "api_key": "app-在这里粘贴 Dify 应用密钥",
+  "user": "student-0001",
+  "stream": true,
+  "workflow_app": true,
+  "timeout": 90
+}

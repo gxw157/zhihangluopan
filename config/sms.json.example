@@ -1,0 +1,36 @@
+{
+  "_说明": "复制为 config/sms.json 即生效；也可以直接在页面「⑧ 工程后台 → 账号与登录 → 短信通道」里填，保存后自动写这个文件。provider 四选一：aliyun / tencent / mob / webhook。缺任意必填项会自动退回演示模式（验证码回显页面）。",
+
+  "provider": "aliyun",
+  "enabled": true,
+
+  "aliyun": {
+    "access_key_id": "LTAI****************",
+    "access_key_secret": "************************",
+    "sign_name": "职航罗盘",
+    "template_code": "SMS_123456789",
+    "region": "cn-hangzhou"
+  },
+
+  "tencent": {
+    "secret_id": "AKID****************",
+    "secret_key": "************************",
+    "sdk_app_id": "1400000000",
+    "sign_name": "职航罗盘",
+    "template_id": "1234567",
+    "region": "ap-guangzhou"
+  },
+
+  "mob": {
+    "appkey": "2f1a****************",
+    "appsecret": "************************",
+    "zone": "86"
+  },
+
+  "webhook": {
+    "url": "https://your-sms-gateway.example.com/send",
+    "token": "your-token-optional",
+    "template": "career_compass",
+    "sign": "职航罗盘"
+  }
+}
